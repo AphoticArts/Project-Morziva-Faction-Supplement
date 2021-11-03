@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<!-- Malleus Hominis -->	
+  <ResearchProjectDef>
+    <tab>Morziva_Tab</tab>
+    <defName>Morziva_RMalleusHominis</defName>
+    <label>Malleus Hominis</label>
+    <description>Research </description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+      <researchViewX>0.00</researchViewX>
+      <researchViewY>0.15</researchViewY>
+  </ResearchProjectDef>	
+
+<!-- Malleus Dei -->	
+  <ResearchProjectDef>
+    <tab>Morziva_Tab</tab>
+    <defName>Morziva_RMalleusDei</defName>
+    <label>AC-417 "Tombstone"</label>
+    <description>Research </description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>Morziva_RMalleusHominis</li>
+    </prerequisites>
+      <researchViewX>0.05</researchViewX>
+      <researchViewY>0.15</researchViewY>
+  </ResearchProjectDef>	
+
+<!-- Arcis Veritatis -->	
+  <ResearchProjectDef>
+    <tab>Morziva_Tab</tab>
+    <defName>Morziva_RArcisVeritatis</defName>
+    <label>Arcis Veritatis</label>
+    <description>Research </description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>Morziva_RMalleusDei</li>
+    </prerequisites>
+      <researchViewX>0.10</researchViewX>
+      <researchViewY>0.15</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <!-- Ritual bed -->	
+	<requiredResearchFacilities>
+	  <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<!-- Needs 7 Rituals completed -->	
+  </ResearchProjectDef>	
+
+<!-- Dei Consilium -->	
+  <ResearchProjectDef>
+    <tab>Morziva_Tab</tab>
+    <defName>Morziva_RDeiConsilium</defName>
+    <label>Dei Consilium</label>
+    <description>Research </description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>Morziva_RMalleusDei</li>
+    </prerequisites>
+      <researchViewX>0.30</researchViewX>
+      <researchViewY>0.15</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<!-- Ritual bed -->	
+    <requiredResearchFacilities>
+	  <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<!-- 21 Rituals completed, at least one with +20 Spectators -->	
+  </ResearchProjectDef>	
+
+<!-- Ignis Aetherei -->	
+  <ResearchProjectDef>
+    <tab>Morziva_Tab</tab>
+    <defName>Morziva_RIgnisAetherei</defName>
+    <label>Ignis Aetherei</label>
+    <description>Research </description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>Morziva_RDeiConsilium</li>
+      <li>Morziva_RArcisVeritatis</li>
+    </prerequisites>
+      <researchViewX>0.40</researchViewX>
+      <researchViewY>0.15</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<!-- Ritual bed -->	
+    <requiredResearchFacilities>
+	  <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<!-- Morziva Terrarium -->	
+  </ResearchProjectDef>	
+
+<!-- Arcanus -->	
+  <ResearchProjectDef>
+    <tab>Morziva_Tab</tab>
+    <defName>Morziva_RArcanus</defName>
+    <label>Arcanus</label>
+    <description>Research </description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>Morziva_RIgnisAetherei</li>
+      <li>Morziva_RDeiConsilium</li>
+	  <li>Morziva_RArcisVeritatis</li>
+    </prerequisites>
+      <researchViewX>0.50</researchViewX>
+      <researchViewY>0.15</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<!-- Ritual bed -->	
+	<!-- 10 Anumus Flowers in Creches -->	
+	<!-- One Pawn ascended through the Godmaker -->	
+    <requiredResearchFacilities>
+	  <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<!-- Godmaker -->	
+	
+	
+  </ResearchProjectDef>	  
+	
+	
+</Defs>
+
+
+
+
+
+
+
