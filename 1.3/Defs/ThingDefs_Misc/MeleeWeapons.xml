@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
+  <!--===================== Normal Variants ==========================================-->
+  
 <!-- Dagger -->	
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Morziva_Dagger</defName>
@@ -177,6 +179,8 @@
       </skillRequirements>
     </recipeMaker>
   </ThingDef>
+
+  <!--===================== Ichor Treated Variants ==========================================-->
 
   
 </Defs>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <!-- Raw resources -->
+
+    <ThingCategoryDef>
+      <defName>Morziva_Ichor</defName>
+      <label>Morziva materials</label>
+      <parent>ResourcesRaw</parent>
+      <iconPath>UI/Icons/ThingCategories/ResourcesRaw</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
+
+  
+  <!--==================== Non-resource readout categories =====================-->
+  
+  <!-- Items -->
+
+  
+      <ThingCategoryDef>
+        <defName>Morziva_BodyParts</defName>
+        <label>Morziva Parts</label>
+        <parent>BodyParts</parent>
+      </ThingCategoryDef>
+
+
+  <!-- Weapons -->
+
+<ThingCategoryDef>
+      <defName>Morziva_WeaponsMelee</defName>
+      <label>Morziva weapons</label>
+      <parent>WeaponsMelee</parent>
+    </ThingCategoryDef>
+
+
+    <ThingCategoryDef>
+      <defName>Morziva_WeaponsRanged</defName>
+      <label>Morziva weapons</label>
+      <parent>WeaponsRanged</parent>
+    </ThingCategoryDef>
+
+  <!-- Apparel -->
+
+  
+    <ThingCategoryDef>
+      <defName>Morziva_ApparelArmor</defName>
+      <label>Morziva armor</label>
+      <parent>ApparelArmor</parent>
+    </ThingCategoryDef>
+
+  <!-- Buildings -->
+
+  <ThingCategoryDef>
+    <defName>Buildings</defName>
+    <label>buildings</label>
+    <parent>Root</parent>
+  </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>Morziva_Buildings</defName>
+      <label>Morziva</label>
+      <parent>Buildings</parent>
+    </ThingCategoryDef>
+
+</Defs>
