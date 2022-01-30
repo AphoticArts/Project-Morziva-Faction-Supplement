@@ -23,7 +23,7 @@ namespace ProjectMorziva.Comps
         private float lastWorkAmountSeen = -1f;
         private int ticksSinceLastContamination = 0;
 
-        public void TryContamination(Pawn target, int stackCount = 1, bool isWorkbench = true)
+        public void TryContamination(Pawn target, float severityFactor, int stackCount = 1, bool isWorkbench = true)
         {
             ticksSinceLastContamination++;
             if (isWorkbench && ticksSinceLastContamination >= this.Props.workbenchContaminationInterval)
@@ -34,7 +34,7 @@ namespace ProjectMorziva.Comps
             }    
         }
 
-        public void TryWorkContamination(Pawn target, int stackCount, float workLeft)
+        public void TryWorkContamination(Pawn target, float severityFactor, int stackCount, float workLeft)
         {
             int workUnitsElapsed = Mathf.RoundToInt(lastWorkAmountSeen - workLeft);
             if (workUnitsElapsed >= 1)
@@ -42,7 +42,7 @@ namespace ProjectMorziva.Comps
                 lastWorkAmountSeen = workLeft;
                 for (int i = 0; i < workUnitsElapsed; i++)
                 {
-                    TryContamination(target, stackCount, true);
+                    TryContamination(target, severityFactor, stackCount, true);
                 }
             }
             else if (lastWorkAmountSeen == -1f)
