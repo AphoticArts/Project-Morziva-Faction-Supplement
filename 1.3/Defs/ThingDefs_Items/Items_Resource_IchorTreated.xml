@@ -74,6 +74,13 @@ find solution for triple workload if not worked on ichor refinery
       </statFactors>
       <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
     </stuffProps>
+    <comps>
+      <li Class="ProjectMorziva.Comps.CompProperties_HazardousMaterial">
+        <hediffToApply>ToxicBuildup</hediffToApply>
+        <workbenchContaminationInterval>250</workbenchContaminationInterval>
+        <baseContaminationSeverity>0.005</baseContaminationSeverity>
+      </li>
+    </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
@@ -127,6 +134,13 @@ find solution for triple workload if not worked on ichor refinery
         <MeleeWeapon_CooldownMultiplier>0.95</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
+    <comps>
+      <li Class="ProjectMorziva.Comps.CompProperties_HazardousMaterial">
+        <hediffToApply>ToxicBuildup</hediffToApply>
+        <workbenchContaminationInterval>250</workbenchContaminationInterval>
+        <baseContaminationSeverity>0.01</baseContaminationSeverity>
+      </li>
+    </comps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
