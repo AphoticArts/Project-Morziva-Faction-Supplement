@@ -1,6 +1,0 @@
-C:\Users\gawei\Documents\Stuff\Dev\Rimworld Mods\Project-Morziva-Faction-Supplement\1.3\Assemblies\ProjectMorziva.dll
-C:\Users\gawei\Documents\Stuff\Dev\Rimworld Mods\Project-Morziva-Faction-Supplement\1.3\Assemblies\ProjectMorziva.pdb
-C:\Users\gawei\Documents\Stuff\Dev\Rimworld Mods\Project-Morziva-Faction-Supplement\Source\ProjectMorziva\obj\Debug\ProjectMorziva.csprojAssemblyReference.cache
-C:\Users\gawei\Documents\Stuff\Dev\Rimworld Mods\Project-Morziva-Faction-Supplement\Source\ProjectMorziva\obj\Debug\ProjectMorziva.csproj.CoreCompileInputs.cache
-C:\Users\gawei\Documents\Stuff\Dev\Rimworld Mods\Project-Morziva-Faction-Supplement\Source\ProjectMorziva\obj\Debug\ProjectMorziva.dll
-C:\Users\gawei\Documents\Stuff\Dev\Rimworld Mods\Project-Morziva-Faction-Supplement\Source\ProjectMorziva\obj\Debug\ProjectMorziva.pdb
