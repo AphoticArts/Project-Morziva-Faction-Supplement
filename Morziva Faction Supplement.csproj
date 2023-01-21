@@ -1,5 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+	<PropertyGroup Condition="'$(SolutionDir)' == ''">
+		<SolutionDir>..\$(ProjectDir)</SolutionDir>
+	</PropertyGroup>
+
 	<PropertyGroup>
 		<Configurations>1.3;1.3_DEBUG;1.4;1.4_DEBUG</Configurations>
 		<ModSharedProps>$(SolutionDir)Shared.mod.props.csproj</ModSharedProps>
